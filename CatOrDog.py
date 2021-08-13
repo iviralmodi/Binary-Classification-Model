@@ -63,7 +63,6 @@ results = model.fit_generator(train_image_gen,epochs=100,
                               validation_data=test_image_gen,
                              validation_steps=12)
  
-# train_image_gen.class_indices
 
 dog_file = 'CATS_DOGS/train/Dog/2.jpg'
 
