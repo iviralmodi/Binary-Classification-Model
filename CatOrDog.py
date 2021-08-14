@@ -76,4 +76,4 @@ dog_img = dog_img/255
 prediction_prob = model.predict(dog_img)
 
 # Output prediction
-print(f'Probability that image is a dog is: {prediction_prob} ')
+print("Probability that image is a dog is: ",prediction_prob)
